@@ -1,19 +1,27 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
+import "../styles/NavBar.css";
 
 function Navbar() {
     return (
-        <nav>
-            <div className="nav-logo">
-                <Link to="/">Juca</Link>
+        <motion.nav
+          className="navbar"
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+                <Link to="/"><img src="../logo.svg" alt="Logo" /></Link>
+            <div className="links">
+              <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                <Link to="/">Home</Link>  
+                <Link to="/formacao">Formação</Link>
+                <Link to="/profissional">Profissional</Link>
+                <Link to="/projetos">Projetos</Link>
+                <Link to="/sobre">Sobre Mim</Link>
+              </motion.div>
             </div>
-            <ul className="nav-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/formacao">Formação</Link></li>
-                <li><Link to="/profissional">Profissional</Link></li> 
-                <li><Link to="/projetos">Projetos</Link></li> 
-                <li><Link to="/sobre">Sobre Mim</Link></li> 
-            </ul>
-        </nav>
+        </motion.nav>
     )
 }
 
