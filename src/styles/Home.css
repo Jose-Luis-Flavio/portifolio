@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
 .home {
-  height: 100vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px 2rem 40px;
+}
+
+.home-inner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .home-container {
@@ -11,6 +21,25 @@
   gap: 40px;
 }
 
+
+/* FONTES */
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5rem;
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+/* FOTO */
+
 .profile img {
   width: 180px;
   height: 180px;
@@ -18,6 +47,18 @@
   object-fit: cover;
   border: 3px solid var(--cor-primaria);
 }
+
+/* BIOGRAFIA */
+
+.biografia {
+  padding: 20px 2rem 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 30rem 0 30rem;
+}
+
+/* INFO CARD INICIAL */
 
 .info h1 {
   color: var(--cor-texto);

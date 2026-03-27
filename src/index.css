@@ -15,12 +15,14 @@
   --cor-texto-suave: #999;
   --cor-fundo: #2E6F40;
   --cor-fundo-nav: #568203;
+  --cor-footer: #06402B
 }
 
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
