@@ -10,6 +10,12 @@ const { scrollYProgress } = useScroll({
   offset: ["start end", "center center"]
 })
 
+const blur = useTransform(
+  scrollYProgress,
+  [0, 1],
+  ["blur(8px)", "blur(0px)"]
+)
+
 const clipPath = useTransform(
   scrollYProgress,
   [0, 1],
@@ -40,10 +46,10 @@ const clipPath = useTransform(
 
       <section className="biografia">
         <motion.div
-        ref={ref} style={{ clipPath }}
+        ref={ref} style={{ clipPath, filter: blur }}
         >
-          <h1 className="fascinate-inline-regular">Desenvolvedor Front-end / Fullstack Júnior </h1>
-          <p className="cabin-sketch-bold">
+          <h1 className="titulo">Desenvolvedor Front-end / Fullstack Júnior </h1>
+          <p className="biografia">
             Com experiência prática no desenvolvimento e manutenção de
             aplicações web corporativas utilizando Angular 10+, TypeScript, HTML
             e CSS. Forte foco em estabilidade de aplicação, arquitetura
