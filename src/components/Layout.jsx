@@ -1,11 +1,9 @@
-import Navbar from "./Navbar.jsx";
 import { motion } from "framer-motion";
 import "../styles/Layout.css";
 
 function Layout({ children }) {
   return (
     <div className="layout">
-      <Navbar />
       <motion.div className="bg-orbs">
         <motion.div
           animate={{

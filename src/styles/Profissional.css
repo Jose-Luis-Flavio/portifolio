@@ -1,0 +1,105 @@
+.profissional {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 2rem;
+}
+
+.profissional h1 {
+  font-size: 2rem;
+  color: var(--cor-destaque);
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: var(--transicao);
+  overflow: hidden;
+}
+
+.exp-card:hover {
+  border-color: var(--cor-primaria);
+  background: rgba(74, 222, 128, 0.06);
+}
+
+.exp-card.aberto {
+  border-color: var(--cor-primaria);
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.exp-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+  padding: 4px;
+}
+
+.exp-info {
+  flex: 1;
+}
+
+.exp-info h2 {
+  font-size: 1.2rem;
+  color: var(--cor-texto);
+}
+
+.exp-info h3 {
+  font-size: 0.95rem;
+  color: var(--cor-primaria);
+  font-weight: 400;
+  margin: 2px 0;
+}
+
+.exp-periodo {
+  font-size: 0.8rem;
+  color: var(--cor-texto-suave);
+}
+
+.exp-arrow {
+  color: var(--cor-texto-suave);
+  font-size: 0.8rem;
+}
+
+.exp-body {
+  overflow: hidden;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--cor-borda);
+}
+
+.exp-body p {
+  color: var(--cor-texto-suave);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.exp-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: rgba(74, 222, 128, 0.1);
+  border: 1px solid var(--cor-primaria);
+  color: var(--cor-primaria);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}

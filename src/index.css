@@ -27,10 +27,14 @@
   --transicao: all 0.3s ease;
 }
 
+main{
+  padding-top: 100px;
+}
+
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-  min-height: 100vh;
+  min-height: 100%;
   overflow-x: hidden;
 }
 
