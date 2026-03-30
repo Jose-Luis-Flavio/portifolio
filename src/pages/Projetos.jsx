@@ -121,12 +121,6 @@ function Projetos() {
               whileTap={{ cursor: "grabbing", scale: 0.98 }}
               style={{ cursor: "grab" }}
               drag
-              dragConstraints={{
-                top: -300,
-                bottom: 100,
-                left: -500,
-                right: 300,
-              }}
               dragElastic={0.2}
               dragMomentum={false}
             >
