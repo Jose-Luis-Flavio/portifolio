@@ -1,29 +1,45 @@
 .skills-swiper-wrapper {
-  width: 200px;
-  margin: 2rem auto;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  width: 100px;
 }
 
 .skill-slide {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--cor-borda);
   border-radius: var(--radius);
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.75rem;
+  transition: var(--transicao);
+  user-select: none;
+}
+
+.skill-slide:hover {
+  border-color: var(--cor-primaria);
+  background: rgba(74, 222, 128, 0.08);
 }
 
 .skill-logo {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
 }
 
 .skill-nome {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--cor-texto-suave);
   font-weight: 500;
 }
