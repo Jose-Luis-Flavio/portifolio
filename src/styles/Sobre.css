@@ -1,0 +1,87 @@
+.sobre {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 2rem;
+}
+
+.sobre-container {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.sobre-foto img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--cor-primaria);
+  box-shadow: 0 0 30px rgba(74, 222, 128, 0.2);
+}
+
+.sobre-conteudo {
+  flex: 1;
+}
+
+.sobre-conteudo h1 {
+  font-size: 2rem;
+  color: var(--cor-destaque);
+  margin-bottom: 1.2rem;
+}
+
+.sobre-conteudo p {
+  color: var(--cor-texto);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.sobre-redes h2 {
+  font-size: 1rem;
+  color: var(--cor-texto-suave);
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.redes-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.rede-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--radius);
+  padding: 1rem 1.5rem;
+  color: var(--cor-texto-suave);
+  font-size: 0.85rem;
+  transition: var(--transicao);
+}
+
+.rede-card:hover {
+  border-color: var(--cor-primaria);
+  background: rgba(74, 222, 128, 0.08);
+  color: var(--cor-texto);
+}
+
+.rede-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .sobre-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .redes-grid {
+    justify-content: center;
+  }
+}
