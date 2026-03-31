@@ -14,7 +14,7 @@ function Navbar() {
       transition={{ duration: 0.5 }}
     >
       <Link to="/">
-        <img src="../logo.svg" alt="Logo" />
+        <img src="{`${process.env.PUBLIC_URL}/logo.svg`}" alt="Logo" />
       </Link>
       <div className="links">
         <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>

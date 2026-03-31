@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Jose-Luis-Flavio.github.io/portifolio",
+  "homepage": "https://jose-luis-flavio.github.io/portifolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
