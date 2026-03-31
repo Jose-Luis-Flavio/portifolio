@@ -10,7 +10,7 @@ const redesSociais = [
   },
   {
     nome: "LinkedIn",
-    url: "https://www.linkedin.com/in/jos%C3%A9-luis-fl%C3%A1vio",
+    url: "https://www.linkedin.com/in/josé-luis-flávio-482246211",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
   },
   {
