@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# 💼 Portfólio - José Luis Flávio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e evolução como desenvolvedor Front-end.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O portfólio foi construído com foco em performance, design moderno e boas práticas de desenvolvimento, destacando projetos reais e estudos práticos.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- JavaScript
+- CSS3
+- Framer Motion
+- HTML5
 
-- Configure the top-level `parserOptions` property like this:
+## ✨ Funcionalidades
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- 📂 Listagem de projetos
+- 🪟 Modal interativo com detalhes
+- 🎯 Interface responsiva
+- 🎨 Animações suaves com Framer Motion
+- 🖱️ Modal arrastável (drag)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📸 Preview
+
+<img width="1888" height="910" alt="image" src="https://github.com/user-attachments/assets/d44d115b-a702-4338-8d9b-6a399300f572" />
+
+
+## 🔗 Acesse o projeto
+
+👉 https://seu-link-aqui.com
+
+## 📂 Repositório
+
+👉 [https://github.com/Jose-Luis-Flavio/portfolio](https://github.com/Jose-Luis-Flavio/portifolio)
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento deste projeto, pratiquei:
+
+- Componentização em React
+- Manipulação de estado com hooks
+- Criação de interfaces modernas
+- Uso de animações para melhorar UX
+- Organização de código escalável
+
+## 👨‍💻 Autor
+
+Desenvolvido por **José Luis Flávio**
+
+- 💼 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/in/josé-luis-flávio-482246211)
+- 💻 GitHub: [https://github.com/Jose-Luis-Flavio](https://github.com/Jose-Luis-Flavio)
+
+---
+
+⭐ Se gostou do projeto, deixe uma estrela!
