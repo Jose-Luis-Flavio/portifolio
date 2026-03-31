@@ -24,8 +24,6 @@ O portfólio foi construído com foco em performance, design moderno e boas prá
 
 ## 📸 Preview
 
-![Preview do projeto](./preview.png)
-
 <img width="1888" height="910" alt="image" src="https://github.com/user-attachments/assets/d44d115b-a702-4338-8d9b-6a399300f572" />
 
 
