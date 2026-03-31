@@ -29,11 +29,7 @@ O portfólio foi construído com foco em performance, design moderno e boas prá
 
 ## 🔗 Acesse o projeto
 
-👉 https://seu-link-aqui.com
-
-## 📂 Repositório
-
-👉 [https://github.com/Jose-Luis-Flavio/portfolio](https://github.com/Jose-Luis-Flavio/portifolio)
+👉 [Link do Site](https://jose-luis-flavio.github.io/portifolio/)
 
 ## 💡 Aprendizados
 
