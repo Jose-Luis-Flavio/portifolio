@@ -84,7 +84,7 @@
 }
 
 .exp-body p {
-  color: var(--cor-texto-suave);
+  color: var(--cor-texto);
   line-height: 1.7;
   margin-bottom: 1rem;
 }

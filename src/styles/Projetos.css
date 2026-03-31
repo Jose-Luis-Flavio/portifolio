@@ -15,7 +15,7 @@
 }
 
 .projetos-header p {
-  color: var(--cor-texto-suave);
+  color: var(--cor-texto-secundaria);
 }
 
 .projetos-grid {
@@ -129,7 +129,7 @@
 }
 
 .modal p {
-  color: var(--cor-texto-suave);
+  color: var(--cor-destaque);
   line-height: 1.7;
 }
 

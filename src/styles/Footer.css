@@ -1,0 +1,8 @@
+.footer {
+  margin-top: 200px;
+  background: linear-gradient(to bottom, var(--cor-fundo), var(--cor-footer));
+  color: var(--cor-destaque);
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}

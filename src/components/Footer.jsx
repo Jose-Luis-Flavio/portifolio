@@ -1,6 +1,8 @@
+import "../styles/Footer.css"
+
 function Footer () {
   return (
-  <footer className="footer">
+  <footer>
     <div className="footer">
         <p>Obrigado pela visita!</p>
         <p>Email: joseluis.bmjnet@gmail.com</p>
