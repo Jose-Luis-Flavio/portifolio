@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 import foto from "../assets/foto.png";
+import SkillsCarousel from "../components/SkillsCarousel";
 
 function Home() {
   const ref = useRef(null);
@@ -69,33 +70,7 @@ function Home() {
           viewport={{ once: true }}
         >
           <h2>Tecnologias</h2>
-          <div className="skills-grid">
-            {[
-              { nome: "React", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /> },
-              { nome: "Angular", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" /> },
-              { nome: "TypeScript", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /> },
-              { nome: "JavaScript", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> },
-              { nome: "HTML", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" /> },
-              { nome: "CSS", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" /> },
-              { nome: "Node.js", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" /> },
-              { nome: "Git", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /> },
-              { nome: "Docker", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /> },
-              { nome: "PostgreSQL", icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" /> },
-            ].map((skill, i) => (
-              <motion.div
-                key={skill.nome}
-                className="skill-card"
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.3, delay: i * 0.08 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.08 }}
-              >
-                <span style={{ height: "50px", width: "50px" }} className="skill-icon">{skill.icon}</span>
-                <span className="skill-nome">{skill.nome}</span>
-              </motion.div>
-            ))}
-          </div>
+          <SkillsCarousel />
         </motion.div>
       </section>
     </div>
