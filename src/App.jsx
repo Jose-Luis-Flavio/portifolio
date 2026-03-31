@@ -13,11 +13,11 @@ import Navbar from './components/Navbar.jsx'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portifolio">
     <Navbar />
       <Layout>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/formacao" element={<Formacao />} />
           <Route path="/profissional" element={<Profissional />} />
           <Route path="/projetos" element={<Projetos />} />
