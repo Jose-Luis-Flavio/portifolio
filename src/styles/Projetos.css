@@ -99,18 +99,29 @@
   color: var(--cor-destaque);
 }
 
+@media (max-width: 768px) {
+  .projetos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    width: 92%;
+    padding: 1.5rem;
+  }
+}
+
 .modal-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none;
+  pointer-events: all;
+  position: fixed;
 }
 
 .modal {
   position: fixed;
-  top: 30%;
-  left: 37%;
-  transform: translate(-50%, -50%);
+  inset: 0;
+  margin: auto;
   z-index: 201;
   background: var(--cor-card);
   border: 1px solid var(--cor-primaria);
@@ -118,6 +129,7 @@
   padding: 2rem;
   max-width: 500px;
   width: 90%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 1rem;

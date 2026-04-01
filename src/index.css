@@ -34,8 +34,18 @@ main{
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-  min-height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 70px;
+  }
 }
 
 a {
