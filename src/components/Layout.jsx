@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import "../styles/Layout.css";
+import Footer from "./Footer.jsx";
+import Navbar from "./Navbar";
 
 function Layout({ children }) {
   return (
+    
     <div className="layout">
+      <Navbar />
       <motion.div className="bg-orbs">
         <motion.div
           animate={{
@@ -62,8 +66,8 @@ function Layout({ children }) {
           className="orb orb-4"
         ></motion.div>
       </motion.div>
-
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }

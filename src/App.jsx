@@ -7,14 +7,11 @@ import Profissional from './pages/Profissional.jsx'
 import Projetos from './pages/Projetos.jsx'
 import Sobre from './pages/Sobre.jsx'
 import Formacao from './pages/Formacao.jsx'
-import Footer from './components/Footer.jsx'
-import Navbar from './components/Navbar.jsx'
 
 function App() {
 
   return (
     <BrowserRouter basename="/portifolio">
-    <Navbar />
       <Layout>
         <Routes>
           <Route index element={<Home />} />
@@ -24,7 +21,6 @@ function App() {
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </Layout>
-      <Footer />
     </BrowserRouter>
   )
 }
