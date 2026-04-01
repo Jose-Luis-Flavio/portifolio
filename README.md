@@ -24,7 +24,8 @@ O portfólio foi construído com foco em performance, design moderno e boas prá
 
 ## 📸 Preview
 
-<img width="1888" height="910" alt="image" src="https://imgur.com/a/EFXJu0N" />
+<img width="1918" height="914" alt="image" src="https://github.com/user-attachments/assets/3fc57a0f-5942-4fbf-a96b-7d99f58bb8ce" />
+
 
 
 ## 🔗 Acesse o projeto
